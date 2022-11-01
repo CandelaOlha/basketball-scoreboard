@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
     <title>Basketball scoreboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="content-container">
-        <!-- Home -->
-        <div class="team-container">
-           <h2 class="title">Home</h2>
-           <div class="score-container">
-               <p class="score" id="homeScore">0</p>
-           </div>
-           <div class="buttons-container">
-               <button class="add-point-button" id="add1PointHomeButton">+1</button>
-               <button class="add-point-button" id="add2PointsHomeButton">+2</button>
-               <button class="add-point-button" id="add3PointsHomeButton">+3</button>
-           </div>
+      <!-- Home -->
+      <div class="team-container">
+        <h2 class="title">Home</h2>
+        <div class="score-container">
+          <p class="score" id="homeScoreText"></p>
         </div>
-        <!-- Guest -->
-        <div class="team-container">
-            <h2 class="title">Guest</h2>
-            <div class="score-container">
-                <p class="score" id="homeScore">0</p>
-            </div>
-            <div class="buttons-container">
-                <button class="add-point-button" id="add1PointGuestButton">+1</button>
-                <button class="add-point-button" id="add2PointsGuestButton">+2</button>
-                <button class="add-point-button" id="add3PointsGuestButton">+3</button>
-            </div>
-         </div>
+        <div class="buttons-container">
+          <button class="add-point-button" id="add1PointHomeButton">+1</button>
+          <button class="add-point-button" id="add2PointsHomeButton">+2</button>
+          <button class="add-point-button" id="add3PointsHomeButton">+3</button>
+        </div>
+      </div>
+      <!-- Guest -->
+      <div class="team-container">
+        <h2 class="title">Guest</h2>
+        <div class="score-container">
+          <p class="score" id="guestScoreText"></p>
+        </div>
+        <div class="buttons-container">
+          <button class="add-point-button" id="add1PointGuestButton">+1</button>
+          <button class="add-point-button" id="add2PointsGuestButton">
+            +2
+          </button>
+          <button class="add-point-button" id="add3PointsGuestButton">
+            +3
+          </button>
+        </div>
+      </div>
     </main>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

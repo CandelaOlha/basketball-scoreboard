@@ -1,86 +1,86 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    align-items: center;
-    background-color: #1B244A;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    padding: 40px;
+  align-items: center;
+  background-color: #1b244a;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 40px;
 }
 
 .content-container {
-    align-items: center;
-    border: 6px solid #fff;
-    border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 800px;
-    padding: 40px;
-    width: 100%;
+  align-items: center;
+  border: 6px solid #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 800px;
+  padding: 40px;
+  width: 100%;
 }
 
 .team-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .title {
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 40px;
-    text-transform: uppercase;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .score-container {
-    align-items: center;
-    background-color: #000;
-    border-radius: 10px;
-    display: flex;
-    height: 120px;
-    justify-content: center;
-    margin-bottom: 40px;
-    width: 155px;
+  align-items: center;
+  background-color: #000;
+  border-radius: 10px;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  margin-bottom: 40px;
+  width: 155px;
 }
 
 .score {
-    color: #F94F6D;
-    font-family: 'Righteous', cursive;
-    font-size: 90px;
+  color: #f94f6d;
+  font-family: "Righteous", cursive;
+  font-size: 90px;
 }
 
 .add-point-button {
-    background-color: transparent;
-    border: 2px solid #9AABD8;
-    color: #9AABD8;
-    cursor: pointer;
-    font-family: 'Righteous', cursive;
-    font-size: 18px;
-    padding: 20px;
+  background-color: transparent;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  cursor: pointer;
+  font-family: "Righteous", cursive;
+  font-size: 18px;
+  padding: 20px;
 }
 
 /* Responsive styles */
 
 @media screen and (max-width: 637px) {
-    body {
-        height: auto;
-    }
-    .content-container {
-        justify-content: center;
-    } 
+  body {
+    height: auto;
+  }
+  .content-container {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 412px) {
-    .add-point-button {
-        padding: 14px;
-    }
+  .add-point-button {
+    padding: 14px;
+  }
 }
