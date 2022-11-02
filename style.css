@@ -6,7 +6,7 @@
 
 body {
   align-items: center;
-  background-color: #1b244a;
+  background-image: url(./images/background.jpg);
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -15,6 +15,9 @@ body {
 
 .content-container {
   align-items: center;
+  background-color: rgb(27 36 74 / 70%);
+  background-position: center;
+  background-repeat: no-repeat;
   border: 6px solid #fff;
   border-radius: 20px;
   display: flex;
